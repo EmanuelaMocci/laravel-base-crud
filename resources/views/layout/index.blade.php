@@ -1,0 +1,1 @@
+{{ route('comic.show', $comic->id) }}
