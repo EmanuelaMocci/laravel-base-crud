@@ -11,8 +11,10 @@
     @include('partials.header')
 
     <main>
-        {{-- parte che cambia in base all'url --}}
-        @yield('pageContent')
+        <div class="container">
+            {{-- parte che cambia in base all'url --}}
+            @yield('pageContent')
+        </div>
     </main>
     
 
