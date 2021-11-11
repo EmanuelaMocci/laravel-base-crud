@@ -8,10 +8,10 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-			  <a class="nav-link" href="{{route("comics.index")}}">Tutti i prodotti</a>
+			  <a class="nav-link" href="{{route("comics.index")}}">All comics</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link" href="{{route("comics.create")}}">Crea un nuovo prodotto</a>
+			  <a class="nav-link" href="{{route("comics.create")}}">Create a new comic</a>
 			</li>
 		  </ul>
 		  <form class="form-inline my-2 my-lg-0">

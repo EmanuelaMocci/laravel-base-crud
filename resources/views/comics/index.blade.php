@@ -3,7 +3,7 @@
 @extends('layout.base')
 
 @section('pageContent')
-    <h1 class="mt-4">Lista tutti i prodotti</h1>
+    <h1 class="mt-4">All comics</h1>
 
     <table class="table mt-5">
         <thead>

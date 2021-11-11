@@ -5,7 +5,7 @@
 @section('pageContent')
     <h2>Create a new comic</h2>
 
-    <form action="{{route("comics.store")}}" method="post">
+    <form action="{{route("comics.store")}}" method="POST">
         @csrf
 
         <div class="mb-3">
@@ -30,7 +30,7 @@
 
         <div class="mb-3">
             <label for="sale_date" class="form-label">Sale Date</label>
-            <input type="text" class="form-control" id="sale_date" placeholder="Insert Sale Date">
+            <input type="text" class="form-control" id="sale_date" placeholder="Insert Sale Date YYYY-MM-DD">
         </div>
 
         <div class="mb-3">
