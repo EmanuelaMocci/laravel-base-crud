@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao</h1>
+    @include('partials.header')
+
+    @yield('pageContent')
+
+    <script src="{{asset("js/app.js")}}"></script>
 </body>
 </html>
